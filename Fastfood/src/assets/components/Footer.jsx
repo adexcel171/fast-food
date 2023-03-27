@@ -4,11 +4,12 @@ import { TiSocialInstagramCircular } from "react-icons/ti";
 
 function Footer() {
   return (
-    <footer className="bg-[#90ca90] font-gilroy text-white">
+    <footer className="bg-[#46ce46] font-gilroy text-white">
       <div className="flex items-center sm:items-stretch flex-col gap-16 sm:flex-row justify-center sm:justify-between pt-16  px-4 max-w-6xl mx-auto xl:px-0 pb-8 lg:border-b cursor-pointer ">
         <div>
           <h6 className="font-gilroy text-xl font-bold text-white border-b border-white inline-block ">
-            FastFood
+Excel Cuisine
+            
           </h6>
           <div className="md:flex gap-2 hidden mt-4">
             <RiFacebookCircleLine className="text-2xl" />

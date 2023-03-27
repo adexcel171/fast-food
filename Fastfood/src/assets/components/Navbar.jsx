@@ -51,7 +51,8 @@ function Navbar({ navIcon, handleNav }) {
       <div className=" hidden md:flex items-center justify-between px-5 xl:px-0 pb-28">
         <Link to="/">
           <h2 className="font-gilroy text-xl font-bold text-[#00A000] border-b border-[#00A000] inline-block">
-            FastFood
+Excel Cuisine
+          
           </h2>
         </Link>
         <nav className="flex gap-10 xl:gap-12">
