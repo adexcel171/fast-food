@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav a.active {
+  color: green;
+}
+.nav {
+  animation-name: nav;
+  animation-duration: 1s;
+}
+@keyframes nav {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(1px);
+  }
+}
